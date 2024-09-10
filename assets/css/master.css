@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(29, 104, 201);
+    padding: 20px;
+}
+header{
+    background-color: rgb(238, 238, 240);
+    color: rgb(4, 1, 18);
+    padding: 18px 20px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    background: rgb(211, 38, 70);
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(253, 254, 255);
+
+}
+body {
+    margin-top: 20px;
+    
+}
+
+section{
+    margin-top: 15px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+article, aside{
+    text-align: justify;
+    color: white;
+    margin-bottom: 5px;
+    padding: 15px;
+    background: rgb(211, 38, 70);
+    border: 1px solid #000000;
+}
+footer{
+    text-align: center;
+    padding: 10px, 0;
+    background: rgb(251, 251, 251);
+}
